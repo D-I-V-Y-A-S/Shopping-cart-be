@@ -1,0 +1,22 @@
+{
+  "name": "shopping-cart-backend",
+  "version": "1.0.0",
+  "description": "1. Clone this repo\r 2. Create a new folder \"assets\" before your execute the backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.5",
+    "nodemon": "^2.0.22"
+  }
+}
